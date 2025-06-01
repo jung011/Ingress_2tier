@@ -1,0 +1,85 @@
+# Spring Boot
+IngressSpring/HELP.md
+IngressSpring/.gradle
+IngressSpring/build/
+!IngressSpring/gradle/wrapper/gradle-wrapper.jar
+!IngressSpring/**/src/main/**/build/
+!IngressSpring/**/src/test/**/build/
+
+### STS ###
+IngressSpring/.apt_generated
+IngressSpring/.classpath
+IngressSpring/.factorypath
+IngressSpring/.project
+IngressSpring/.settings
+IngressSpring/.springBeans
+IngressSpring/.sts4-cache
+IngressSpring/bin/
+!IngressSpring/**/src/main/**/bin/
+!IngressSpring/**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+IngressSpring/.idea
+IngressSpring/*.iws
+IngressSpring/*.iml
+IngressSpring/*.ipr
+IngressSpring/out/
+!IngressSpring/**/src/main/**/out/
+!IngressSpring/**/src/test/**/out/
+
+### NetBeans ###
+IngressSpring/nbproject/private/
+IngressSpring/nbbuild/
+IngressSpring/dist/
+IngressSpring/nbdist/
+IngressSpring/.nb-gradle/
+
+### VS Code ###
+IngressSpring/.vscode/
+
+# React
+Ingressreact/node_modules
+Ingressreact/.pnp
+Ingressreact/.pnp.js
+
+# testing
+Ingressreact/coverage
+
+# production
+Ingressreact/build
+
+# misc
+.DS_Store
+Ingressreact/.env.local
+Ingressreact/.env.development.local
+Ingressreact/.env.test.local
+Ingressreact/.env.production.local
+
+Ingressreact/npm-debug.log*
+Ingressreact/yarn-debug.log*
+Ingressreact/yarn-error.log*
+
+################
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

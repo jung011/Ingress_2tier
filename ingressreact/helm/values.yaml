@@ -1,0 +1,20 @@
+replicaCount: 1
+
+namespace: ingress2tier
+
+image:
+  repository: ingressreact
+  tag: latest
+  pullPolicy: Never
+
+service:
+  name: frontend
+  type: ClusterIP
+  port: 3000
+  targetPort: 3000
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {} 

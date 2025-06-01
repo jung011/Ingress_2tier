@@ -1,0 +1,21 @@
+replicaCount: 1
+
+namespace: ingress2tier
+
+image:
+  repository: ingressspring
+  tag: latest
+  pullPolicy: Never
+
+service:
+  name: backend
+  type: ClusterIP
+  port: 8080
+  targetPort: 8080
+  #nodePort: 31542
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {} 

@@ -1,41 +1,41 @@
 # Spring Boot
-IngressSpring/HELP.md
-IngressSpring/.gradle
-IngressSpring/build/
-!IngressSpring/gradle/wrapper/gradle-wrapper.jar
-!IngressSpring/**/src/main/**/build/
-!IngressSpring/**/src/test/**/build/
+IngerssSpring/HELP.md
+IngerssSpring/.gradle
+IngerssSpring/build/
+!IngerssSpring/gradle/wrapper/gradle-wrapper.jar
+!IngerssSpring/**/src/main/**/build/
+!IngerssSpring/**/src/test/**/build/
 
 ### STS ###
-IngressSpring/.apt_generated
-IngressSpring/.classpath
-IngressSpring/.factorypath
-IngressSpring/.project
-IngressSpring/.settings
-IngressSpring/.springBeans
-IngressSpring/.sts4-cache
-IngressSpring/bin/
-!IngressSpring/**/src/main/**/bin/
-!IngressSpring/**/src/test/**/bin/
+IngerssSpring/.apt_generated
+IngerssSpring/.classpath
+IngerssSpring/.factorypath
+IngerssSpring/.project
+IngerssSpring/.settings
+IngerssSpring/.springBeans
+IngerssSpring/.sts4-cache
+IngerssSpring/bin/
+!IngerssSpring/**/src/main/**/bin/
+!IngerssSpring/**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-IngressSpring/.idea
-IngressSpring/*.iws
-IngressSpring/*.iml
-IngressSpring/*.ipr
-IngressSpring/out/
-!IngressSpring/**/src/main/**/out/
-!IngressSpring/**/src/test/**/out/
+IngerssSpring/.idea
+IngerssSpring/*.iws
+IngerssSpring/*.iml
+IngerssSpring/*.ipr
+IngerssSpring/out/
+!IngerssSpring/**/src/main/**/out/
+!IngerssSpring/**/src/test/**/out/
 
 ### NetBeans ###
-IngressSpring/nbproject/private/
-IngressSpring/nbbuild/
-IngressSpring/dist/
-IngressSpring/nbdist/
-IngressSpring/.nb-gradle/
+IngerssSpring/nbproject/private/
+IngerssSpring/nbbuild/
+IngerssSpring/dist/
+IngerssSpring/nbdist/
+IngerssSpring/.nb-gradle/
 
 ### VS Code ###
-IngressSpring/.vscode/
+IngerssSpring/.vscode/
 
 # React
 Ingressreact/node_modules

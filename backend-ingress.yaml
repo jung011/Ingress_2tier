@@ -19,3 +19,10 @@ spec:
             name: ingressspring
             port:
               number: 8080
+      - path: /tcc(/|$)(.*)
+        pathType: Prefix
+        backend:
+          service:
+            name: ingressspring
+            port:
+              number: 8080

@@ -9,7 +9,7 @@ spec:
   - host: 
     http:
       paths:
-      - path: /
+      - path: /v2
         pathType: Prefix
         backend:
           service:

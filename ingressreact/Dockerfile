@@ -6,6 +6,8 @@ COPY ./ ./
 
 RUN npm -y install 
 
+ENV PUBLIC_URL=/v2
+
 EXPOSE 3000
 
 # 개발 모드로 실행

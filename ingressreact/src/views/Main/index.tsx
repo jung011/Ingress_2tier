@@ -10,7 +10,7 @@ export default function Main() {
   const handleSubmit = async () => {
     try {
       console.log('전송할 데이터:', input);
-      const result = await axios.post('http://localhost/api/data', {
+      const result = await axios.post('http://127.0.0.1/api/data', {
         data: input
       });
       console.log('서버 응답:', result.data);

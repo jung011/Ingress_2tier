@@ -1,0 +1,27 @@
+# 빌드 출력물 제외
+build/
+target/
+out/
+
+# 의존성 캐시
+.gradle/
+.mvn/
+
+# IDE 관련 설정 파일 제외
+*.iml
+*.ipr
+*.iws
+.vscode/
+.idea/
+
+# OS 관련 파일 제외
+.DS_Store
+Thumbs.db
+
+# 로그 파일 제외
+*.log
+
+# 환경설정 파일 (선택)
+.env
+.env.local
+.env.*.local
